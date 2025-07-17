@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+main{
+    width: 100%;
+    flex: 1 1 0;
+}
+:root{
+    --background-degrade: linear-gradient(180deg, #000 0%, #112A47 92.31%);
+    --cor-marinho: #131730;
+    --cor-cinza-claro: #f9f9f9;
+    --cor-laranja: #db7e04;
+    --cor-laranja-claro: #f1bb41;
+    --fonte-texto: "Poppins"
+}
+/*Criando varáveis para trabalhar o estilo de cor e fonte no projeto.*/

@@ -1,0 +1,22 @@
+*{
+    font-family: var(--fonte-texto);
+}
+.container{
+    background: var(--background-degrade);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .container_main{
+    flex: 1 1 0;
+}
+
+#texto_footer{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cor-cinza-claro);
+    text-align: center;
+    padding-bottom: 40px;
+}
+
